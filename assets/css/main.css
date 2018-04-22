@@ -2777,7 +2777,6 @@
 
 			.wrapper {
 				padding: 2em 0 0.1em 0;
-                background-size: contain;
 			}
 
 		}
@@ -3142,6 +3141,7 @@
 
 			#banner {
 				padding: 6em 2em 6em 2em;
+                background-size: contain;
 			}
 
 				#banner br {
