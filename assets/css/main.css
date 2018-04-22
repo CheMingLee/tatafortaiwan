@@ -2736,7 +2736,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+			background-image: url("images/overlay.png"), url("../../images/tatafortaiwan.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -2777,6 +2777,7 @@
 
 			.wrapper {
 				padding: 2em 0 0.1em 0;
+                background-size: contain;
 			}
 
 		}
@@ -3091,7 +3092,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../../images/tatafortaiwan.png");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -3161,6 +3162,7 @@
 
 			#banner {
 				padding: 4em 2em 4em 2em;
+                background-size: contain;
 			}
 
 		}
