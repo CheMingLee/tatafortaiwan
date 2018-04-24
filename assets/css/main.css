@@ -3107,14 +3107,14 @@
 		#banner p {
 			color: #ffffff;
 			font-size: 1.5em;
-			margin-bottom: 1.75em;
-			text-transform: uppercase;
+			margin-bottom: 0.5em;
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			#banner {
 				padding: 14em 0 11em 0;
+                background-size: contain;
 			}
 
 				#banner h2 {
@@ -3135,7 +3135,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 6em 2em 6em 2em;
+				padding: 6em 2em 3em 2em;
                 background-size: contain;
 			}
 
@@ -3156,7 +3156,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 4em 2em 4em 2em;
+				padding: 4em 2em 2em 2em;
                 background-size: contain;
 			}
 
