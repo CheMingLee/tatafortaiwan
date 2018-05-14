@@ -1,0 +1,13 @@
+document.writeln("<footer id=\'footer\'>");
+document.writeln("    <div class=\'container\'>");
+document.writeln("        <ul class=\'icons\'>");
+document.writeln("            <li><a href=\'https://www.facebook.com/tatafortaiwan/\' class=\'icon fa-facebook\'></a></li>");
+document.writeln("            <li><a href=\'https://www.youtube.com/channel/UCq4HihwFia4YFPEWipMAtBw\' class=\'icon fa-youtube\'></a></li>");
+document.writeln("            <li><a href=\'https://www.instagram.com/tatafortaiwan/\' class=\'icon fa-instagram\'></a></li>");
+document.writeln("        </ul>");
+document.writeln("        <ul class=\'copyright\'>");
+document.writeln("            <li>&copy; 2018 tatafortaiwan</li>");
+document.writeln("        </ul>");
+document.writeln("    </div>");
+document.writeln("</footer>");
+document.writeln("<a href=\'#menu\' class=\'navPanelToggle\'><span class=\'fa fa-bars\'></span></a>");

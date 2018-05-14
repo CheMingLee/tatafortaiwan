@@ -1,0 +1,13 @@
+document.writeln("<head>");
+document.writeln("    <meta charset=\'utf-8\' />");
+document.writeln("    <script type=\'text/javascript\'>");
+document.writeln("        var host = \'yoursite.com\';");
+document.writeln("        if ((host == window.location.host) && (window.location.protocol != \'https:\'))");
+document.writeln("            window.location.protocol = \'https\';");
+document.writeln("    </script>");
+document.writeln("    <meta name=\'viewport\' content=\'width=device-width, initial-scale=1\' />");
+document.writeln("    <link rel=\'canonical\' href=\' { { site.url } }{ { page.url } }\' />");
+document.writeln("    <link rel=\'stylesheet\' href=\'assets/css/main.css\' />");
+document.writeln("    <link rel=\'stylesheet\' href=\'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\'>");
+document.writeln("    <link rel=\'icon\' href=\'images/favicon-tata.ico\' />");
+document.writeln("</head>");
