@@ -1,5 +1,9 @@
 document.writeln("<footer id=\'footer\'>");
 document.writeln("    <div class=\'container\'>");
+document.writeln("        <header class=\'major\'>");
+document.writeln("            <h2>聯絡我們</h2>");
+document.writeln("            <p>tata@tatafortaiwan.com</p>");
+document.writeln("        </header>");
 document.writeln("        <ul class=\'icons\'>");
 document.writeln("            <li><a href=\'https://www.facebook.com/tatafortaiwan/\' class=\'icon fa-facebook\'></a></li>");
 document.writeln("            <li><a href=\'https://www.youtube.com/channel/UCq4HihwFia4YFPEWipMAtBw\' class=\'icon fa-youtube\'></a></li>");
@@ -10,4 +14,3 @@ document.writeln("            <li>&copy; 2018 tatafortaiwan</li>");
 document.writeln("        </ul>");
 document.writeln("    </div>");
 document.writeln("</footer>");
-document.writeln("<a href=\'#menu\' class=\'navPanelToggle\'><span class=\'fa fa-bars\'></span></a>");
