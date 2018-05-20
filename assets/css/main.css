@@ -1,64 +1,37 @@
-/* Video RWD */
+/* RWD - Images */
 
-	.videoWrapper {
-		position: relative;
-		padding-bottom: 56.25%; /* 16:9 */
-		padding-top: 25px;
-		height: 0;
-	}
-	.videoWrapper iframe {
-		position: absolute;
-		top: 0;
-		left: 0;
+	img {
 		width: 100%;
-		height: 100%;
+		max-width: 840px;
+		height: auto;
 	}
 
-/* Read More JS */
+/* RWD - Videos */
+
+	.embedresize {
+	max-width: 840px;
+	margin: auto;
+	}
+	
+	.embedresize div {
+	position: relative;
+	height: 0;
+	padding-bottom: 56.25%;
+	}
+	
+	.embedresize iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
+
+/* Read More */
 
 	.hide {
 		display: none;
 	}
-
-/* Read More CSS only */
-
-	/* .read-more-content {
-		max-height: 0;
-		overflow: hidden;
-		transition: max-height .5s ease;
-	}
-	
-	.read-more-toggle {
-	display: none;
-	}
-
-	.read-more-toggle-label {
-	display: inline-block;
-	user-select: none;
-	cursor: pointer;
-	border: none;
-	padding: 5px;
-	margin: .5em;
-	font-size: .8em;
-	background: #555;
-	color: white;
-	}
-
-	.read-more-toggle-label:after {
-	content: "More";
-	display: inline-block;
-	}
-
-	.read-more-toggle:checked + .read-more-content {
-	display: block; */
-	/* css animation won't work with "auto"; set to some height larger
-		than the content */
-	/* max-height: 1000px;
-	}
-
-	.read-more-toggle:checked + .read-more-content + .read-more-toggle-label:after {
-	content: "Less";
-	} */
 
 /* Reset */
 
@@ -2797,6 +2770,10 @@
 				}
 
 				@media screen and (max-width: 1280px) {
+					
+					.wrapper.style3 {
+						background-size: contain;
+					}
 
 					.wrapper.style3 header.major {
 						margin-bottom: 2em;
@@ -3179,7 +3156,6 @@
 
 			#banner {
 				padding: 9em 0 7em 0;
-                background-size: contain;
 			}
 
 		}
@@ -3188,7 +3164,6 @@
 
 			#banner {
 				padding: 6em 2em 3em 2em;
-                background-size: contain;
 			}
 
 				#banner br {
@@ -3209,7 +3184,6 @@
 
 			#banner {
 				padding: 3em 2em 1em 2em;
-                background-size: contain;
 			}
 
 		}
