@@ -3,15 +3,12 @@
         <loc>https://tatafortaiwan.com/</loc>
     </url>
     <url>
-        <loc>https://tatafortaiwan.com/aboutTATA.html</loc>
+        <loc>https://tatafortaiwan.com/about.html</loc>
     </url>
     <url>
-        <loc>https://tatafortaiwan.com/newsTATA.html</loc>
+        <loc>https://tatafortaiwan.com/blog.html</loc>
     </url>
     <url>
-        <loc>https://tatafortaiwan.com/recordsTATA.html</loc>
-    </url>
-    <url>
-        <loc>https://tatafortaiwan.com/TATAwantHome.html</loc>
+        <loc>https://tatafortaiwan.com/join.html</loc>
     </url>
 </urlset>
